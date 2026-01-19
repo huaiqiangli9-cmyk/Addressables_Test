@@ -1,0 +1,54 @@
+# Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/[Ll]ocal/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+
+# VS/MD solution
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Rider
+.idea/
+*.sln.iml
+
+# Asset Store Tools
+/Assets/AssetStoreTools*
+
+# ========== 重要：Addressables配置 ==========
+# 忽略Build文件夹，但保留ServerData子文件夹
+/Build/*
+!/Build/ServerData/
+!/Build/ServerData/**/
+!/Build/ServerData/**/*.bundle
+!/Build/ServerData/**/*.json
+!/Build/ServerData/**/*.hash
+
+# 忽略Assets等源文件
+/Assets/
+/Packages/
+/ProjectSettings/
